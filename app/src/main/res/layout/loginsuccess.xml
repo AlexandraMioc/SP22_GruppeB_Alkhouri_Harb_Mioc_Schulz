@@ -47,8 +47,8 @@
 
         <TextView
             android:id="@+id/welcomeText"
-            android:layout_width="408dp"
-            android:layout_height="61dp"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
             android:background="#FF5722"
             android:clickable="false"
             android:textAppearance="@style/TextAppearance.AppCompat.Display1"
@@ -59,6 +59,7 @@
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent"
             app:layout_constraintVertical_bias="0.073" />
+
 
         <ImageButton
             android:id="@+id/backToLoginButton"
